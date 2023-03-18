@@ -273,3 +273,16 @@ runcode(function()
 		["Function"] = function() end
 	})
 end)
+runcode(function()
+	GhostExploit = GuiLibrary["ObjectsThatCanBeSaved"]["BlatantWindow"]["Api"].CreateOptionsButton({
+		["Name"] = "GhostExploit", 
+		["Function"] = function(callback)
+			if callback then
+
+			else
+
+			end
+		end,
+		["HoverText"] = "Makes you perm invisible.(need to have ghost glove or 666 slaps)"
+	})
+end)
